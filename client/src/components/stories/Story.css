@@ -1,0 +1,19 @@
+.story-container {
+  display: flex;
+  padding: 2rem 2rem;
+}
+
+.story-inner-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.story-list {
+  cursor: pointer;
+}
+
+.story-no-results {
+  text-align: center;
+}

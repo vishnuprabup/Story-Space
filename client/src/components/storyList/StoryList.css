@@ -1,0 +1,38 @@
+.story-contents {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.story-user {
+  display: flex;
+  justify-content: space-between;
+}
+
+.story-user > p {
+  font-size: 14px;
+  font-weight: 400;
+  color: lightgray;
+}
+
+.story-data {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.story-data > h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.story-data-summary {
+  font-size: 0.9rem;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.story-line-breaker {
+  padding-top: 1rem;
+  border-bottom: 1px solid lightgrey;
+}

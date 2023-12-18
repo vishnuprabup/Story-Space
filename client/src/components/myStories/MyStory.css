@@ -1,0 +1,10 @@
+.my-story-inner-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.myStory {
+  cursor: pointer;
+}

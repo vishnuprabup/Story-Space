@@ -1,0 +1,58 @@
+.modal-container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(32, 32, 32);
+}
+
+.modal-inner-container {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2rem;
+  overflow: hidden;
+  padding: 2rem;
+  gap: 1rem;
+  background-color: rgb(32, 32, 32);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.exit-btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.exit-btn h1 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.exit-btn img {
+  width: 6%;
+  cursor: pointer;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.cancel-btn {
+  padding: 0.3rem 1.5rem;
+  cursor: pointer;
+  border-radius: 1rem;
+  border: 1px solid gray;
+}
+
+.cancel-btn:hover {
+  background-color: rgb(58, 58, 58);
+}
+
+.delete-btn {
+  padding: 0.3rem 1.5rem;
+  cursor: pointer;
+  border-radius: 1rem;
+  background-color: rgb(196, 7, 7);
+}
